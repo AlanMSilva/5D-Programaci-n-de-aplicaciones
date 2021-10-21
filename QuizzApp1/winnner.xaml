@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="QuizzApp.winnner">
+
+    <Grid>
+        <Image Source="https://c.tenor.com/epNMHGvRyHcAAAAd/gigachad-chad.gif" IsAnimationPlaying="True"  Aspect="AspectFill" />
+        <StackLayout>
+            <Label HorizontalTextAlignment="Center" TextColor="White" Text="Average Enjoyer Quizz" FontSize="30" FontAttributes="Bold"/>
+            <Label HorizontalTextAlignment="Center" TextColor="White" Text="Ganaste" FontSize="30" FontAttributes="Bold" Margin="150"/>
+            <Button Clicked="Button_Clicked_1" Text="Regresar" BackgroundColor="Wheat" CornerRadius="20" TextColor="#1A1D26" Margin="150,10" />
+        </StackLayout>
+    </Grid>
+    
+</ContentPage>

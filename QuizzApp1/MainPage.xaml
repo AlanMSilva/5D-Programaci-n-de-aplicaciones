@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="QuizzApp.MainPage">
+
+    <Grid>
+        <Image Source="wallpaper.jpg" Aspect="AspectFill"/>
+        <Grid>
+            <StackLayout>
+
+                <Label Text="CUANTO ES 12 + 1?" TextColor="White" TextType="Html" Margin="0,45,0,0" HorizontalTextAlignment="Center" FontSize="30" FontAttributes="Bold"/>
+                <Button Clicked="Button_Clicked" Text="13" BackgroundColor="Wheat" CornerRadius="20" TextColor="#1A1D26" Margin="150,10" />
+                <Button Clicked="btnIncorrecto_Clicked" Text="no se" BackgroundColor="Wheat" CornerRadius="20" TextColor="#1A1D26" Margin="150,10"/>
+                <Button Clicked="btnIncorrecto_Clicked" Text="Entre mas..." BackgroundColor="Wheat" CornerRadius="20" TextColor="#1A1D26" Margin="150,10" />
+
+            </StackLayout>
+        </Grid>
+
+    </Grid>
+
+</ContentPage>
